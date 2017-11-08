@@ -4,6 +4,7 @@ require 'capybara/rspec'
 describe 'Spammer' do
   it 'should enter target site' do
     visit 'https://www.teknosa.com/'
+    page.execute_script "window.scrollBy(0,10000)"
     click_on 'Müşteri Hizmetleri'
     fill_in 'txtName', with: 'Onur'
     fill_in 'txtSurname', with: 'Kucukkece'
