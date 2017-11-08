@@ -8,4 +8,5 @@ gem 'faker'
 gem 'capybara'
 gem 'shoulda-matchers', require: false
 gem 'selenium-webdriver'
+gem 'poltergeist'
 gem 'rspec_junit_formatter'
