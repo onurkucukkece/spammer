@@ -33,6 +33,7 @@ GEM
     rack (2.0.3)
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
+    rake (12.2.1)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -64,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   faker
+  rake
   rspec
   selenium-webdriver
   shoulda-matchers
