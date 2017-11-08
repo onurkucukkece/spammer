@@ -8,3 +8,4 @@ gem 'faker'
 gem 'capybara'
 gem 'shoulda-matchers', require: false
 gem 'selenium-webdriver'
+gem 'rspec_junit_formatter'
